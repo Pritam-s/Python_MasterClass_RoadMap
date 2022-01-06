@@ -3,6 +3,8 @@
     
     Python has a set of built-in functions.
 
+    (As of version 3.10.1)
+
     A
     abs()
     aiter()
@@ -116,6 +118,13 @@
     _
     __import__()
 
+    (As of version 3.10.1)
+
+
+
+
+    (Some older version)
+
     Function	Description
     abs()	Returns the absolute value of a number
     all()	Returns True if all items in an iterable object are true
@@ -185,6 +194,6 @@
     vars()	Returns the __dict__ property of an object
     zip()	Returns an iterator, from two or more iterators
 
-
+    (Some older version)
     
 '''
