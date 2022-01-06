@@ -38,7 +38,7 @@
     string.find(): 
 
     string.replace(“old_word”, “new_word”): 
-    
+
 '''
 
 
@@ -48,3 +48,13 @@ print(var1[3:15:2]) # Slicing
 print("This is the hash of",var1,hash(var1)) #Hash() Function
 print(type(var1)) #type() class function
 print(len(var1)) #len() function
+
+#Some important Methods :-
+print(var1.upper()) #upper() method
+print(var1.find("good")) #endswith() method
+print(var1.replace("good", "awesome")) #replace() method
+print(var1.count("i")) #count() method
+print(var1.lower()) #lower() method
+print(var1.endswith("girl")) #endswith() method - returns true or false.
+print(var1.title()) #title() method - Capitalized 1st character of each word.
+
