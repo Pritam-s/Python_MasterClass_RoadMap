@@ -4,6 +4,12 @@
     a) Python lists are containers used to store a list of values of any data type.
     b) We can also say that it is a collection of elements from any data type.
 
+    c) Special Properties of Lists :
+         List is a collection which is :-
+         ordered.
+         changeable. 
+         Allows duplicate members.
+
 2. Indexing of Lists -
 
     a) List elements can also be accessed by using Indices, i.e. the first element has 0 and so on.
@@ -26,7 +32,7 @@
 5) All Lists Methods - 
 
     Method	    Description
-    
+
     append()	Adds an element at the end of the list
     clear()	    Removes all the elements from the list
     copy()	    Returns a copy of the list
