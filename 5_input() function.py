@@ -1,5 +1,5 @@
 '''
-1. input() function - 
+# 1. input() function - 
 
 This function allows the user to receive input from the keyboard into the program as a string.
 
@@ -9,13 +9,14 @@ eg:- input()
 '''
 
 #Example for input() function in python.
-var1 = input("Please enter your good name.\n")
-print("The age entered by the user is", var1)
+example1 = input("Please enter your good name.\n")
+print("The name entered by the user is "+ example1+".")
 
-'''
-Example for input() function with typecasting as the default
-datatype for any input() function is string.
-'''
+
+#Example for input() function with typecasting as the default datatype for any input() function is string.
+example2 = float(input("Please enter any number of your choice.\n"))
+print("The number entered by the user is ", example2)
+
 
 
 
