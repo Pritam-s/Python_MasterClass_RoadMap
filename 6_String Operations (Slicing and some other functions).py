@@ -14,6 +14,8 @@
     b) input() 
     c) str()
     d) hash()
+    e) max()
+    f) min()
     etc ....
 
 3. Slicing of strings.
@@ -21,7 +23,8 @@
     syntax :- word[n:m]
     b) Sometimes, we need to skip some value. By default the skip value is 1.
     syntax :- word[n:m:skip value]
-    c) we can also put -negative skip value.
+    c) we can also put -negative skip value. 
+        * Never put -negative skip value lesser than -1.
 
 4. Some Important string methods :-
 
