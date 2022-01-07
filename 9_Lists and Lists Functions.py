@@ -55,3 +55,58 @@
     sort()	    Sorts the list
 '''
 
+
+#Examples :-
+
+lists1 = ["Hello","Kumiko",True,456,334.98,"Olof","Teddy",False,None,546,87,"Puppy"]
+
+lists2 = [454,64,54,87,64,2,5,6,84,6,43,21,84,354,846,354465,431,654687,6843,676,3,44,6,6,6]
+
+#Some important Built-in functions -
+print(len(lists1))
+print(type(lists1))
+print(max(str(lists1)))
+print(min(str(lists1)))
+print(max(lists2))
+print(min(lists2))
+
+#Indexing & Slicing
+print(lists1[::])
+print(lists1[0:12:1]) #Using default values of start_index, stop_index and step. start_index - 0, stop_index - length of the list, index - 1.
+print(lists1[::-1]) #reverse the list
+print(lists1[::-3]) #Using -ve step value smaller than -1 gives appropriate results as there are no values for arguments for the start_index and stop_index.
+print(lists1[0:12:-3]) #Using the -ve step value smaller than -1 will result in an unexpected behavior as there are values for arguments of start_index & stop_index.
+print(lists1[2:9:-1])
+
+
+#Lists Methods -
+
+#count()
+print('\nThis is the count() method and the result is',lists2.count(6)) #count()
+
+#extend() - here lists2 extends lists1
+print(lists1.extend(lists2))
+print('\nThis is the extend() method and the result is',lists1)
+
+#append()
+lists1.append('This is the appended item')
+print('\nThis is the append() method and the result is',lists1)
+
+#index()
+print('\nThis is the index() method and result is',lists2.index(21))
+
+#pop() - We put index number as an argument. Here 'Hello' having index 0 is popped and removed.
+lists1.pop(0)
+print('\nThis is the pop() method and the result is',lists1)
+
+#remove() - We put the item-name as it is. Here None from list1 is removed.
+lists1.remove(None) 
+print('\nThis is the remove() method and the result is',lists1)
+
+#reverse()- reverse 
+lists1.reverse()
+print('\nThis is the reverse() method and the result is',lists1)
+
+#sort() - method
+lists2.sort()
+print('\nThis is the sort() method and the result is', lists2)
