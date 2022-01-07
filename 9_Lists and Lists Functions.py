@@ -10,16 +10,24 @@
          changeable. 
          Allows duplicate members.
 
+
 2. Indexing of Lists -
 
     a) List elements can also be accessed by using Indices, i.e. the first element has 0 and so on.
     b) If you put an index that isn't on the list, you will get an error.
+
 
 3. Slicing of Lists -
 
     a) Like string slicing, we can also do slicing of Lists. Also the default value of step argument is 1 (same as in string).
     
     slice1 = list1[start_index : stop_index : step]
+
+    b) NOTE -
+        * Never put any negative number smaller than -1 in step argument while slicing. eg:- -2, -3, -4 should never be used in Lists and strings. It doesn't works for some reason. (Could be supported in newer versions.)
+
+        * The default value of 'start_index' is always 0. Likewise, the default value of 'stop_index' is always the length of the list or string.
+
 
 4. List Methods -
     Some mostly used methods.
@@ -28,6 +36,7 @@
     c) list.remove()
     d) list.pop()
     e) list.sort()
+
 
 5) All Lists Methods - 
 
