@@ -41,7 +41,7 @@ print('\nThis is the values() method and the result is',dict1.values()) #values(
 
 #O/P - Output
 
-    '''
+'''
     This is the fromkeys() key and the result is {'Name': {'food': 'Chicken BBQ', 'Drink': 'Dextrose Monohydrate'}, 'Age': {'food': 'Chicken BBQ', 'Drink': 'Dextrose Monohydrate'}, 'Bike': {'food': 'Chicken BBQ', 'Drink': 'Dextrose Monohydrate'}, 'Alias': {'food': 'Chicken BBQ', 'Drink': 'Dextrose Monohydrate'}, 'Cc': {'food': 'Chicken BBQ', 'Drink': 'Dextrose Monohydrate'}, 'Passing': {'food': 'Chicken BBQ', 'Drink': 'Dextrose Monohydrate'}}
 
     This is the get() key and the result is Olof
@@ -49,5 +49,5 @@ print('\nThis is the values() method and the result is',dict1.values()) #values(
     This is the items() method and the result is dict_items([('Name', 'Pritam Singh'), ('Age', 25), ('Bike', 'RTR 180 ABS'), ('Alias', 'Olof'), ('Cc', 180), ('Passing', 2015)])
 
     This is the values() method and the result is dict_values(['Pritam Singh', 25, 'RTR 180 ABS', 'Olof', 180, 2015])
-    '''
+'''
 
