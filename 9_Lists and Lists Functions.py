@@ -1,5 +1,5 @@
 '''
-1. Lists -
+1. Lists - [ ]
     
     a) Python lists are containers used to store a list of values of any data type.
     b) We can also say that it is a collection of elements from any data type.
