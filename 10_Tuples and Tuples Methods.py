@@ -15,3 +15,13 @@ tup1 = ("Olof", "kumiko", "Teddy", "Puppy", 1232, 54,68,797,98,797,6876,8768,987
 print('\n This is the count method and the result is',tup1.count(797)) #count() method
 
 print('\n This is the index method and the result is',tup1.index("Puppy")) #index() method
+
+'''
+O/P Output -
+
+    
+ This is the count method and the result is 2        
+
+ This is the index method and the result is 3 
+
+'''
