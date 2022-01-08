@@ -110,3 +110,48 @@ print('\nThis is the reverse() method and the result is',lists1)
 #sort() - method
 lists2.sort()
 print('\nThis is the sort() method and the result is', lists2)
+
+
+#O/P - Output
+'''
+12
+<class 'list'>
+y
+
+654687
+2
+['Hello', 'Kumiko', True, 456, 334.98, 'Olof', 'Teddy', False, None, 546, 87, 'Puppy']
+['Hello', 'Kumiko', True, 456, 334.98, 'Olof', 'Teddy', False, None, 546, 87, 'Puppy']
+['Puppy', 87, 546, None, False, 'Teddy', 'Olof', 334.98, 456, True, 'Kumiko', 'Hello']
+['Puppy', None, 'Olof', True]
+[]
+[]
+
+This is the count() method and the result is 5
+None
+
+This is the extend() method and the result is ['Hello', 'Kumiko', True, 456, 
+334.98, 'Olof', 'Teddy', False, None, 546, 87, 'Puppy', 454, 64, 54, 87, 64, 
+2, 5, 6, 84, 6, 43, 21, 84, 354, 846, 354465, 431, 654687, 6843, 676, 3, 44, 
+6, 6, 6]
+
+This is the append() method and the result is ['Hello', 'Kumiko', True, 456, 
+334.98, 'Olof', 'Teddy', False, None, 546, 87, 'Puppy', 454, 64, 54, 87, 64, 
+2, 5, 6, 84, 6, 43, 21, 84, 354, 846, 354465, 431, 654687, 6843, 676, 3, 44, 
+6, 6, 6, 'This is the appended item']
+
+This is the index() method and result is 11
+
+This is the pop() method and the result is ['Kumiko', True, 456, 334.98, 'Olof', 'Teddy', False, None, 546, 87, 'Puppy', 454, 64, 54, 87, 64, 2, 5, 6, 84, 6, 43, 21, 84, 354, 846, 354465, 431, 654687, 6843, 676, 3, 44, 6, 6, 6, 'This is the appended item']
+
+This is the remove() method and the result is ['Kumiko', True, 456, 334.98, 'Olof', 'Teddy', False, 546, 87, 'Puppy', 454, 64, 54, 87, 64, 2, 5, 6, 84, 6, 43, 21, 84, 354, 846, 354465, 431, 654687, 6843, 676, 3, 44, 6, 6, 6, 'This 
+is the appended item']
+
+This is the reverse() method and the result is ['This is the appended item', 
+6, 6, 6, 44, 3, 676, 6843, 654687, 431, 354465, 846, 354, 84, 21, 43, 6, 84, 
+6, 5, 2, 64, 87, 54, 64, 454, 'Puppy', 87, 546, False, 'Teddy', 'Olof', 334.98, 456, True, 'Kumiko']
+
+This is the sort() method and the result is [2, 3, 5, 6, 6, 6, 6, 6, 21, 43, 
+44, 54, 64, 64, 84, 84, 87, 354, 431, 454, 676, 846, 6843, 354465, 654687]   
+
+'''
