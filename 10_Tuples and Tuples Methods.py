@@ -1,5 +1,5 @@
 '''
-1. Tuples - 
+1. Tuples - ( )
     
     A Tuple is an immutable data type in Python. A tuple in python is a collection of elements enclose in () paranthesis. Tuple, once defined, can't be changed, i.e. it's elements or values cannot be altered or manipulated.
 
