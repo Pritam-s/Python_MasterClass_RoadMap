@@ -3,9 +3,16 @@
     
     A Tuple is an immutable data type in Python. A tuple in python is a collection of elements enclose in () paranthesis. Tuple, once defined, can't be changed, i.e. it's elements or values cannot be altered or manipulated.
 
-NOTE - 
+    NOTE - 
     * To create a tuple of one/single element, it is necessary to put a comma ',' after that one element like this tup=('element',). because if we only give a single element inside the parenthesis, the python interpreter will interpret it as a single entity.
 
+2. Tuples Methods :-
+
+    Method	Description
+    
+    count()	Returns the number of times a specified value occurs in a tuple
+    
+    index()	Searches the tuple for a specified value and returns the position of where it was found
 '''
 
 #Examples :-
