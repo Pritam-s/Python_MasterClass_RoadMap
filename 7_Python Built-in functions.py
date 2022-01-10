@@ -61,6 +61,7 @@
     isinstance()
     issubclass()
     iter()
+
     L
     len()
     list()
@@ -85,9 +86,6 @@
     pow()
     print()
     property()
-
-
-
 
     R
     range()
