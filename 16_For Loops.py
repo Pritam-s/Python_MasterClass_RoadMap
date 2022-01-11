@@ -9,38 +9,17 @@
     In English language the word Iteration means - The act of repeating again and again.
 
 
-2. Uses of Loops :-
+2. UseCases of 'for' loops ?
 
-    a) Loop is useful in areas whereas lot of data has to be printed on the screen, manually doing this work would require alot of time and efforts.
+    a) A 'for' statement loop runs until the iteration through sets, lists, tuples, dictionaries etc.. or a generator function is completed.
 
-    b) Loops are also helpful in searching date from lists, dictionaries, tuples, sets.
-
-
-3. Why do we use Loops ?
-
-    * Complex problems can be simplified using loops.
-
-    * Less amount of code required for our program.
-
-    * Lesser code so lesser chance or error.
-
-    * Saves a lot of time and effort.
-
-    * Can write code that is practically impossible to      write.
-
-    * Searching and sorting algorithms that require too many iterations can be simplified using loops.
+    b) A 'for' statement is used for areas whereas we are already familiar with the number of iterations .i.e we already know how many iterations has to be done.
 
 
-4. Advantages of Loops.
+3. Syntax if 'for' loop.
 
-    * The reusability of code is ensured.
-
-    * We do not have to repeat the code, again and again, we just have to write in one time.
-
-    * We can transverse through data structures like list, dictionary, tuples.
-
-    * We apply most of the findings algorithms through loops.
-
+        for item in lists:
+            loop body
 '''
 
 
