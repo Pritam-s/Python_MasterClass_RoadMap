@@ -16,7 +16,7 @@
     b) A 'for' statement is used for areas whereas we are already familiar with the number of iterations .i.e we already know how many iterations has to be done.
 
 
-3. Syntax if 'for' loop.
+3. Syntax of 'for' loop.
 
         for item in lists:
             loop body
