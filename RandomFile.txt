@@ -1,0 +1,3 @@
+This is a random file.
+This is made to test Python Files IO.
+r, a, w, b, t, x, +
