@@ -17,16 +17,27 @@
 
         In order to create a function, we have to use the "def" keyword accompanied by the function's name with a pair of parentheses.
 
+
+    d) Arguments and parameters :-
+
         The purpose of paranthesis is to send arguments or parameters to a function.
         In other words, the parameters can be defined as values that are sent in the paranthesis.
 
+        NOTE :- The terms parameter and arguments can be used for the same thing : information that are passed into a function.
 
-    d) Return values :-
+        From a function's perspective:
+
+            A parameter is the variable listed inside the parentheses in the function definition.
+
+            An argument is the value that is sent to the function when it is called.    
+
+    e) Return values :-
 
         Some functions may return a value to the caller, so in order to get the value, a return statement is put at the end of the body of the function that gives the values that has been calculated by the function.
+        i.e. The Function can 'return' data as a result.
     
 
-    e) Function calling :-
+    f) Function calling :-
 
         Calling a function is very easy, we just habe to write the name of the function along with the closing paranthesis. If any arguments are required than we put those in the paranthesis.
         But, if it does not return anything, then we leave them empty.
