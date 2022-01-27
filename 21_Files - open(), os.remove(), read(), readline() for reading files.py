@@ -1,5 +1,5 @@
 '''
-1. Open(), Read(), Readline() for Reading files.
+1. Open(), os.remove() ,Read(), Readline() for Reading files.
 
     a) Python has a built-in function called 'Open()' to open a file.
     b) The syntax of the function is :- open("File_name", "mode")
@@ -17,6 +17,8 @@
 6. It is always the best practice to close the file after we have done the modifications. Python has a built-in method called 'close()' to close a file.
 
 7. Also, Python runs a garbage collector to clean p the unused objects, but as a good programmers, we must not rely on it and rather close the file using the close() method.
+
+8. To delete a file, python OS module has to be used.
 '''
 
 #Examples :-
@@ -64,3 +66,18 @@ b'This is a random file.\r\nThis is made to test Python Files IO.\r\nr, a, w, b,
 
 #Important - close() is the built-in method to close a file.
 f.close()
+
+
+#Deleting a file
+#Creating a random file named 'newfile.txt'
+'''
+new1 = open("newfile.txt", "r+")
+new1.write("This is the new file which will be deleted using OS module.")
+new1.close()
+'''
+
+#Later on deleting the same file named 'newfile.txt' using os module.
+'''
+import os
+os.remove("newfile.txt")
+'''
