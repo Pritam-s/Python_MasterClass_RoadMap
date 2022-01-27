@@ -1,5 +1,5 @@
 ''''
-1. Writing and Appending to a file -
+1. Writing and Appending to a file :-
 
     i) 'w' mode -
         w stands for write. After opening or creating a files, a function , f.write() is used to insert text int ht he files. The tet is written to the write m ode of the opening file that it overrides the existing data in the file. For a newly created file, it does no harm, but in case of already exisiting files, the previous data is lost as f.write() overrides it.
@@ -10,13 +10,22 @@
     iii) 'r+' mode -
         Reading and Writing a file simultaneously. Well, r+ mode is more of a combination of "reading" and "append" than read and write. By opening a file in this mode, we can print the existing content on to the screen by printing f.read() function and adding or appending text to it using f.write() function. 
 
+2) Deleting a File :-
+
+    To delete a file, we must import the OS module, and run it's 'os.remove()' function.
+
+    eg:-
+    import os
+    os.remove("testfile.txt")
+
+
 NOTE :- If you are writing in append mode, start your text by putting a blank space or newline character (\n) else the compiler will start the line from the last word or full stop without any blank space because the curser in case of append mode is placed right after the last character.    
 '''
 
 
 #Examples :-
 '''
-#. Write Mode
+# 1. Write Mode
 p =  open("FileAppend.txt", "w")
 a = p.write("This is a file created for the 22th chapter\n")
 print(a) #gives 44
@@ -25,7 +34,7 @@ p.close()
 '''
 
 '''
-# Read Mode
+# 2. Read Mode
 f = open("FileAppend.txt", "a")
 a = f.write("Pritam is a good boy\n")
 print(a) #gives 21
@@ -35,7 +44,7 @@ O/P
 '''
 
 '''
-#Read + Write mode
+# 3. Read + Write mode
 x = open("FileAppend.txt", "r+")
 print(x.read())
 x.write("This will append to the end of the content of the file")
@@ -48,3 +57,21 @@ This is a file created for the 22th chapter
 Pritam is a good boy
 This will change the content of the file
 '''
+
+
+# 4. Deleting a file
+
+#Creating a random file named 'newfile.txt'
+'''
+new1 = open("newfile.txt", "r+")
+new1.write("This is the new file which will be deleted using OS module.")
+new1.close()
+'''
+
+#Later on deleting the same file named 'newfile.txt' using os module.
+'''
+import os
+os.remove("newfile.txt")
+'''
+
+
