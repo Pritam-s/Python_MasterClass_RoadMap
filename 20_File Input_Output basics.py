@@ -26,4 +26,17 @@
     
     + : In plus mode, we can read and write a file simultaneously. The mode is mostly used in cases where we want to update our file.
 
+
+NOTE :-
+
+    Deleting a file -
+
+        To delete a file, we must import the python OS module, and run it's - 'os.remove()' function.
+
+        eg :- 
+
+        import os
+        os.remove("Testfile.txt")
+
+
 '''
