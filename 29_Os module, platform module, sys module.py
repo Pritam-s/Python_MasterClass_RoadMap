@@ -132,7 +132,32 @@ print(f'This is the current working dir {os.getcwd()}')
 
 print(os.listdir())
 
-
-#print(os.listdir())
-
 print(os.path.isfile("X:\Desktop_Reloaded\F2_WebDevolpment Projects\Python_MasterClass_RoadMap\\FileAppend.txt"))
+
+
+
+# Platform module
+import platform
+print('Platform Architecture ',platform.architecture())
+print('Platform System ',platform.system())
+print('Platform platform ',platform.platform())
+print('Platform machine ',platform.machine())
+print('Platform node ',platform.node())
+print('Platform processor - ', platform.processor())
+print('Platform python build - ',platform.python_build())
+print('Platform python compiler', platform.python_compiler())
+
+
+#sys module
+import sys
+print(help(sys))
+print(sys.version)
+print(sys.platform)
+print(sys.winver)
+print(sys.getwindowsversion())
+print(sys.modules)
+print(sys.getrefcount("pritam"))
+print(sys.path)
+sys.stderr
+sys.stdin
+sys.stdout
