@@ -28,8 +28,31 @@ Syntax - string.join(iterable)
 '''
 
 
-# Example -
+# Examples -
 
-list1 = ["Pritam", "Singhwa", "Shailendra", "Kumarwa"] #only single data type allowed.
+
+# Example 1 - 
+'''list1 = ["Pritam", "Singhwa", "Shailendra", "Kumarwa"] #only single data type allowed.
 sep = ' & '
-print(sep.join(list1))
+print(sep.join(list1))'''
+
+
+# Example 2 -
+lis = ["John", "cena", "Randy", "orton",
+       "Sheamus", "khali", "jinder mahal"]
+for item in lis:
+    print(item, "and", end=" Stop ") 
+#O/P -
+'''
+John and Stop cena and Stop Randy and Stop orton and Stop Sheamus and Stop khali and Stop jinder mahal and Stop
+'''
+
+# Example 3 -
+lis = ["John", "cena", "Randy", "orton",
+       "Sheamus", "khali", "jinder mahal"]
+a = ", ".join(lis)
+print(a, "other wwe superstars")
+#O/P -
+'''
+John, cena, Randy, orton, Sheamus, khali, jinder mahal other wwe superstars
+'''
