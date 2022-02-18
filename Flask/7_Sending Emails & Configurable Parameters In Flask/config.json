@@ -1,0 +1,15 @@
+{
+    "params":{
+        "websitename" : "Flask Test",
+        "Footercopyrights": "Flask Test",
+        "plan1":"Rs.0",
+        "plan2":"Rs.549",
+        "plan3":"Rs.999",
+        "local_server":"True",
+        "local_uri":"mysql://root:@localhost/flask_test",
+        "prod_uri":"mysql://root:@localhost/flask_test",
+        "gmail-user": "singhpritam1704@gmail.com",
+        "gmail-password" : "Pass@K20Pro_P.SinghGmail",
+        "email-recipients" : "sage1704@protonmail.ch"
+    }
+}
