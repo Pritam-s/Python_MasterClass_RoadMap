@@ -1,0 +1,10 @@
+{
+    "params":
+    {
+        "websitename" : "Flask Test",
+        "Footercopyrights": "Flask Test",
+        "plan1":"Rs.0",
+        "plan2":"Rs.549",
+        "plan3":"Rs.999"
+    }
+}
